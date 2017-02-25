@@ -1,0 +1,54 @@
+/**************
+General
+**************/
+*,
+*:before,
+*:after: {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Gloria Hallelujah', Georgia, sans-serif;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  padding: 10px 0 20px 0;
+  margin-top: 0;
+}
+
+.removeSelect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;  
+       -moz-user-select: none; 
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.modalWrapper {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  font-size: 2em;
+  line-height: 1.5;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.clickHolder {
+  text-align: center;
+  font-size: 4em;
+  padding-top: 10px;
+}
+
+.message {
+  text-align: center;
+  font-size: 2em;
+  padding-top: 10px;
+}
+
+.triggerReload > a {
+  text-decoration: none;
+  color: #fff;
+}
